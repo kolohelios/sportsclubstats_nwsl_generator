@@ -1,0 +1,38 @@
+{
+  "name": "personal",
+  "version": "0.0.1",
+  "description": "Odds Generator",
+  "main": "index.ts",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "@types/node": "^17.0.42",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.4"
+  },
+  "scripts": {
+    "start": "ts-node index",
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolohelios/sportsclubstats_nwsl_generator.git"
+  },
+  "keywords": [
+    "sportsclubstats",
+    "nwsl",
+    "playoff",
+    "odds"
+  ],
+  "author": "Jon Edwards <jkedwards@me.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolohelios/sportsclubstats_nwsl_generator/issues"
+  },
+  "homepage": "https://github.com/kolohelios/sportsclubstats_nwsl_generator#readme"
+}

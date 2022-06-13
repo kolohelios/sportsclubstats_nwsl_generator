@@ -1,0 +1,50 @@
+LeagueBegin
+  League: National Women's Soccer League (NWSL)   (Sort: Div) (Playoffs: 6)
+%%TEAMS%%
+  Kind: pro
+  Sport: soccer
+  Gender: female
+  Country: USA
+  State: 
+  Level: A
+  Season: 2022 (current: True)
+  Author: kolohelios
+  Note: Credit for original league creation and rules goes to SiberianThunderT<br/>send corrections/comments to @kolohelios on Twitter<br/>source code for generator lives here: https://github.com/kolohelios/sportsclubstats_nwsl_generator
+  LotteryNote: 
+LeagueEnd
+
+SortBegin
+Div: Points, Points HeadToHead, GoalsDelta, GoalsFor, Average Away Points
+HeadToHead, Away GoalsDelta, Away GoalsFor, DrawLots
+SortEnd
+
+RulesBegin
+  PointsForWinInRegulation:  3
+  PointsForWinInOvertime:  3
+  PointsForWinInShootout:  3
+  PointsForLossInRegulation:  0
+  PointsForLossInOvertime:  0
+  PointsForLossInShootout:  0
+  PointsForTie:  1
+  PercentOfGamesThatEndInTie:  0.25
+  PercentOfGamesThatEndInOvertimeWin:  0
+  PercentOfGamesThatEndInShootoutWin:  0
+  HomeFieldAdvantage:  0.6
+  WeightType:  Pythagorean
+  WeightExponent:  1.4
+  WhatDoYouCallATie:  draw
+  WhatDoYouCallLottery:  lottery
+  WhatDoYouCallPromoted:  NWSL Shield
+  Promote:  1
+  PromotePlus:  0
+  PromotePlusPercent:  0
+  WhatDoYouCallDemoted:  Wooden Spoon
+  Demote:  1
+  DemotePlus:  0
+  DemotePlusPercent:  0
+RulesEnd
+
+GamesBegin
+TeamListedFirst: home
+%%GAMES%%
+GamesEnd
